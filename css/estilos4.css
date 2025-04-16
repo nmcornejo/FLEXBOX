@@ -1,0 +1,36 @@
+h1{
+    color:  rgb(10, 77, 140);
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  
+  .flex > .flex1 {
+    background-color: black;
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+  }
+  p{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  }
+  
+  .flex > .flex2 {
+    background-color: white;
+    height: 500px;
+    padding: 8px 16px;
+    margin: 5px;
+  
+  }
+  .flex > .flex3 {
+    background-color: rgb(219, 209, 209);
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+  }

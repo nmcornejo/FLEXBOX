@@ -1,0 +1,29 @@
+h1{
+    color:  rgb(10, 77, 140);
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    background-color: aquamarine;  
+}
+.flex > .flex1 {
+    background-color: black;
+    color: white;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  p {
+    color: white;
+   word-wrap: break-word;
+   font-size: small;
+  }

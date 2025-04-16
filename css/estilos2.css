@@ -1,0 +1,27 @@
+h1{
+    color:  rgb(10, 77, 140);
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+}
+
+.flex > .flex1 {
+    background-color: rgb(124, 198, 216);
+    flex: 1;
+    margin: 5px;
+    padding: 5px;
+    height: 100vw;
+  }
+
+  .flex > .flex2 {
+    background-color: rgb(109, 247, 217);
+    flex: 2;
+    padding: 5px;
+    margin: 5px;
+    height: 100vw;
+
+  }
